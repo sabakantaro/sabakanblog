@@ -3,7 +3,7 @@ import SideWidget from "./SideWidget";
 
 function Introduction() {
   return (
-    <header className="py-5 bg-light border-bottom mb-4">
+    <header className="py-5 bg-light border-bottom">
       <div className="container">
         <div className="text-center my-5">
           <h1 className="fw-bolder">さばかんブログ</h1>

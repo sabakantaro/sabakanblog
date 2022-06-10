@@ -8,7 +8,12 @@ function SideWidget() {
       <div className="card mb-4">
         <div className="card-header">プロフィール</div>
         <div className="text-center my-5 px-5">
-          <img alt="icon" src={MainIcon} />
+          <img
+            alt="icon"
+            className="rounded mx-auto"
+            width={200}
+            src={MainIcon}
+          />
           <h5 className="mt-3">さばかんたろう</h5>
           <a
             className="btn btn-primary"

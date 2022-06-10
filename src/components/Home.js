@@ -8,7 +8,7 @@ import Protein from "../assets/img/image-protein.jpeg";
 
 function Home() {
   return (
-    <header className="py-5 bg-light border-bottom mb-4">
+    <header className="py-5 bg-light border-bottom">
       <div className="container">
         <div className="text-center my-5">
           <h1 className="fw-bolder">さばかんブログ</h1>
@@ -158,11 +158,7 @@ function Home() {
               <hr className="my-0" />
               <ul className="pagination justify-content-center my-4">
                 <li className="page-item disabled">
-                  <a
-                    className="page-link"
-                    href="#"
-                    aria-disabled="true"
-                  >
+                  <a className="page-link" href="#!" aria-disabled="true">
                     ◁
                   </a>
                 </li>
